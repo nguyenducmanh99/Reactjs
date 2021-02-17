@@ -1,0 +1,7 @@
+.person {
+    display: inline-block;
+    margin: 10px;
+    border: 1px sienna;
+    box-shadow: sienna;
+    padding: 20px;
+}
