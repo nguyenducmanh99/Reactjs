@@ -3,7 +3,7 @@
         "browser": true,
         "es2021": true
     },
-    "extends": ["eslint:recommended", "plugin:react/recommended", "plugin:prettier/recommended", "prettier"],
+    "extends": ["standard", "plugin:react/recommended", "plugin:prettier/recommended", "prettier"],
     "overrides": [
     ],
     "parser": "@babel/eslint-parser",
@@ -13,10 +13,11 @@
         "ecmaVersion": 2018 // Allows for the parsing of modern ECMAScript features
     },
     "plugins": [
-        "react"
+        "react", "prettier"
     ],
     "rules": {
-        "react/react-in-jsx-scope": "off"
+        "react/react-in-jsx-scope": "off",
+        "semi": [2, "always"]
     },
     "root": false
 }
